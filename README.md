@@ -115,15 +115,18 @@ For example, to test PDF processing, you can set the URL to http://127.0.0.1:800
 4.Testing with POST requests:
 *To test the PDF and URL processing endpoints, choose the POST method and attach files or JSON in the Body tab of Postman:
 
-      For PDF Processing:
-  
-          Select POST.
-          URL: http://127.0.0.1:8000/process-pdf.
-          In Body, choose form-data and upload a PDF file.
-      For URL Processing:
-          Select POST.
-          URL: http://127.0.0.1:8000/process-url.
-          In Body, select raw and input a JSON object like:
+      - For PDF Processing:
+            Select POST.
+            URL: http://127.0.0.1:8000/process-pdf.
+            In Body, choose form-data and upload a PDF file.
+
+          
+      - For URL Processing:
+            Select POST.
+            URL: http://127.0.0.1:8000/process-url.
+            In Body, select raw and input a JSON object like:
+
+            
 ```json
 Copy code
 {
